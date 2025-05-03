@@ -4,12 +4,12 @@
 
 import pyperclip
 
-message = 'This is my secret message.'
+message = 'guv6Jv6Jz!J6rp5r7Jzr66ntrM'
 
 # Key for the Caesar cipher
 key = 13
 
-mode = 'encrypt'  # Set to 'decrypt' to decrypt the message
+mode = 'decrypt'  # Set to 'decrypt' to decrypt the message
 
 # Symbols used in the cipher
 SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
