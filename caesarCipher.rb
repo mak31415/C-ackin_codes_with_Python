@@ -14,6 +14,7 @@ SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
 translated = ''
 
 message.each_char do |symbols|
+  
   if SYMBOLS.include?(symbols)
 
     symbolIndex = SYMBOLS.index(symbols)
