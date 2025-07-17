@@ -2,6 +2,8 @@
 # This program encrypts and decrypts a message using the Caesar cipher.
 # BSD Licensed
 
+require_relative 'pyperclip'
+
 message = 'guv6Jv6Jz!J6rp5r7Jzr66ntrM'
 
 # Key for the Caesar cipher
@@ -37,3 +39,6 @@ end
 
 puts "#{mode.capitalize}ed message: #{translated}"
 # Output the translated message
+
+RubyClip.copy(translated)  # Copy the translated message to the clipboard
+puts "The #{mode}ed message has been copied to the clipboard."
